@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HouseVOP</title>
+</head>
+<body>
+    <!-- =======Header======= -->
+    <div class="header">  
+        <div class="container">
+            <div class="header__nav">
+                <!-- =======Top header left side======= -->
+                <div class="header__nav-left">
+                    <div class="header__nav-logo"></div>
+                </div>
+                <!-- =======Top header right side======= -->
+                <div class="header__nav-right">
+                    <ul class="header__nav-menu">
+                        <li class="navbar__item">О комплексе</li>
+                        <li class="navbar__item">Район</li>
+                        <li class="navbar__item">Каталог квартир</li>
+                        <li class="navbar__item">Ипотека</li>
+                        <li class="navbar__item">Контакты</li>
+                    </ul>
+                </div>
+
+                <div class="burger-menu">
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                </div>
+
+            </div>
+            <!-- =======Inside header body======= -->
+            <div class="header__welcome">
+                <h1 class="header__welcome-title">Жилой комплекс <br> в историческом центре</h1>
+                <div class="header__mouse"></div>
+                <div class="header__contacts">
+                    <div class="header__address">
+                        <img class="header__contacts-icons" src="./img/placeholder.svg" alt="">
+                        <span><a href="#">Наб. реки Фонтанки 10-15</a></span>
+                    </div>
+                    <div class="header__phone">
+                        <img class="header__contacts-icons" src="./img/phone-call.svg" alt="">
+                        <span><a href="#">8 (812) 123-45-67</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======= Section-1 ======= -->
+    <div class="section1">
+        <!-- =======Roman number "2"======= -->
+        <div class="roman-icon__number-first"></div>
+        <div class="container">
+            <!-- =======Section1 list======= -->
+            <ul class="section1__features-list">
+                <li class="features__item">
+                    <i class="features__item-icon"><img src="./img/sec1_bench.png" alt="Bench"></i>
+                    <p class="features__item-desc">Рядом исторические парки и скверы</p>
+                </li>
+                <li class="features__item">
+                    <i class="features__item-icon"><img src="./img/sec1_building.png" alt="Building"></i>
+                    <p class="features__item-desc">Полностью обустроенный</p>
+                </li>
+                <li class="features__item">
+                    <i class="features__item-icon"><img src="./img/sec1_fountain.png" alt="Fountain"></i>
+                    <p class="features__item-desc">10 фонтанов на территории</p>
+                </li>
+                <li class="features__item">
+                    <i class="features__item-icon"><img src="./img/sec1_bicycle.png" alt="Bicycle"></i>
+                    <p class="features__item-desc">6 км велодорожек</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ======= Section-2 ======= -->
+    <div class="section2">
+        <div class="roman-icon__number-second"></div>
+        <div class="container">
+            <!-- =======Section2 title======= -->
+            <div class="section2__title">
+                <h2>Наши квартиры</h2>
+            </div>
+            <!-- =======Section2 list of images======= -->
+            <div class="section2__list-images">
+                <div class="section2__image">
+                    <img src="./img/sec2_pic1.png" alt="Loft - 3rd floor" />
+                    <p class="section2__image-desc"><span><a href="#">Лофт — 3 этажа</a></span></p>
+                </div>
+                <div class="section2__image">
+                    <img src="./img/sec2_pic2.png" alt="Loft - 2nd floor" />
+                    <p class="section2__image-desc"><span><a href="#">Лофт — 2 этажа</a></span></p>
+                </div>
+                <div class="section2__image">
+                    <img src="./img/sec2_pic3.png" alt="Loft - 3rd floor" />
+                    <p class="section2__image-desc"><span><a href="#">Лофт — 3 этажа</a></span></p>
+                </div>
+                <div class="section2__image">
+                    <img src="./img/sec2_pic4.png" alt="Loft - 2nd floor" />
+                    <p class="section2__image-desc"><span><a href="#">Лофт — 2 этажа</a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======= Footer ======= -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <!-- =======Footer left side======= -->
+                <div class="footer__left">
+                    <h2 class="footer__left-title">Хотите посмотреть?</h2>
+                    <p class="footer__left-desc">Lorem Ipsum - это текст-"рыба", 
+                        часто используемый в печати и вэб-дизайне. Lorem Ipsum 
+                        является стандартной "рыбой" для текстов на латинице с 
+                        начала XVI века. В то время некий безымянный печатник 
+                        создал большую коллекцию размеров и форм шрифтов, используя 
+                        Lorem Ipsum для распечатки образцов.
+                    </p>
+                </div>
+                <!-- =======Footer right side======= -->
+                <div class="footer__right">
+                    <form class = "footer__form" action="">
+                        <input class="form__input" type="text" name="form__text" required placeholder="Ваше имя">
+                        <input class="form__phone-number" type="tel" name="form__phone-number" list="tel-list" required placeholder="Ваше телефон">
+                        <datalist id="tel-list">
+                            <option value="+996 (555) 12-45-67" label="Телефонный номер №1">
+                            <option value="+996 (705) 12-45-68" label="Телефонный номер №2">
+                        </datalist>
+                        <p class="footer__right-text"><span>*Мы никому не передаем ваши <br> данные. И не сохраняем ваш <br> номер в базу.</span></p>
+                        <button class="form__position">Посмотреть район</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
